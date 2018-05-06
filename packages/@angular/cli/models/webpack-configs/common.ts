@@ -220,6 +220,7 @@ export function getCommonConfig(wco: WebpackConfigOptions) {
     module: {
       rules: [
         { test: /\.html$/, loader: 'raw-loader' },
+        { test: /.(pug|jade)$/, loader: 'apply-loader!pug-loader?self' },
         {
           test: /\.(eot|svg|cur)$/,
           loader: 'file-loader',

@@ -132,7 +132,7 @@ export default Command.extend({
           anonymousOptions = [...anonymousOptions, '<name>'];
         }
 
-        if (collectionName === '@schematics/angular' && schematicName === 'interface') {
+        if (collectionName === 'schematics-angular-pug' && schematicName === 'interface') {
           anonymousOptions = [...anonymousOptions, '<type>'];
         }
 
@@ -197,7 +197,7 @@ export default Command.extend({
       project: this.project
     });
 
-    if (collectionName === '@schematics/angular' && schematicName === 'interface' && rawArgs[2]) {
+    if (collectionName === 'schematics-angular-pug' && schematicName === 'interface' && rawArgs[2]) {
       commandOptions.type = rawArgs[2];
     }
 

@@ -53,7 +53,7 @@
 <details>
   <summary>collection</summary>
   <p>
-    <code>--collection</code> (aliases: <code>-c</code>) <em>default value: @schematics/angular</em>
+    <code>--collection</code> (aliases: <code>-c</code>) <em>default value: schematics-angular-pug</em>
   </p>
   <p>
     Schematics collection to use.

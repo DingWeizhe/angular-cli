@@ -1,11 +1,11 @@
 {
-  "name": "@angular/cli",
+  "name": "angular-cli-pug",
   "version": "1.7.4",
   "description": "CLI tool for Angular",
   "main": "packages/@angular/cli/lib/cli/index.js",
   "trackingCode": "UA-8594346-19",
   "bin": {
-    "ng": "./bin/ng"
+    "ngp": "./bin/ng"
   },
   "keywords": [],
   "scripts": {
@@ -44,9 +44,8 @@
     "@angular-devkit/build-optimizer": "0.3.2",
     "@angular-devkit/core": "0.3.2",
     "@angular-devkit/schematics": "0.3.2",
-    "@schematics/angular": "0.3.2",
     "@schematics/package-update": "0.3.2",
-    "ajv": "^6.1.1",
+    "ajv": "~5.5.1",
     "autoprefixer": "^7.2.3",
     "cache-loader": "^1.2.0",
     "chalk": "~2.2.0",
@@ -85,6 +84,7 @@
     "resolve": "^1.1.7",
     "rxjs": "^5.5.6",
     "sass-loader": "^6.0.6",
+    "schematics-angular-pug": "^0.3.3",
     "semver": "^5.3.0",
     "silent-error": "^1.0.0",
     "source-map": "^0.5.6",

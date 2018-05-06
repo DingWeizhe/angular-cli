@@ -95,9 +95,9 @@ if (packageJsonProjectPath && fs.existsSync(packageJsonProjectPath)) {
   const deps = packageJsonProject['dependencies'] || {};
   const devDeps = packageJsonProject['devDependencies'] || {};
   const hasOldDep = !!deps['angular-cli'];
-  const hasDep = !!deps['@angular/cli'];
+  const hasDep = !!deps['angular-cli-pug'];
   const hasOldDevDep = !!devDeps['angular-cli'];
-  const hasDevDep = !!devDeps['@angular/cli'];
+  const hasDevDep = !!devDeps['angular-cli-pug'];
 
   if (hasOldDep || hasOldDevDep || !(hasDevDep || hasDep)) {
     const warnings = [
